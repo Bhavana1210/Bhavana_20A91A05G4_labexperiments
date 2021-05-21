@@ -1,0 +1,11 @@
+#input
+B=int(raw_input("enter a value"))
+if B<20:
+      print('B is <20')
+      print('hi') 
+ 
+#Output
+enter a value
+10
+B is <20
+hi

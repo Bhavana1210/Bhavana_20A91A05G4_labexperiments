@@ -1,0 +1,26 @@
+#input
+n=int(input("enter n value"))
+if(n in range(0,1001)):
+ discount=n*0
+elif(n in range(1001,2001)):
+ discount=n*0.1
+elif(n in range(2001,3001)):
+ discount=n*0.2
+elif(n in range(3001,5001)):
+ discount=n*0.3
+elif(n>5000):
+ discount=n*0.4
+print("Discount: ",discount)
+print("Bill Amount: ",n-discount)
+if(n<0):
+    print("Invalid value")
+#output
+1.enter n value1200
+  Discount:  120.0
+  Bill Amount:  1080.0
+2.enter n value3000
+ Discount:  600.0
+ Bill Amount:  2400.0
+3.enter n value800
+ Discount:  0
+ Bill Amount:  800

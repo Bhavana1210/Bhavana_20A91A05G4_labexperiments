@@ -1,0 +1,13 @@
+#input
+s=int(input("enter starting"))
+e=int(input("enter ending"))
+step=int(input("enter step"))
+i=s
+while i<=e:
+    print(i,end=",")
+    i+=step
+#output
+enter starting5 
+enter ending15
+enter step2
+5,7,9,11,13,15,_

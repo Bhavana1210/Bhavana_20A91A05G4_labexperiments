@@ -1,0 +1,12 @@
+#input
+n=int(input("enter n value:")) #taking n value from user
+i=1 #intial value of i
+while(i<=n): #while loop continous upto i equal to n
+ if(n%i==0): #if loop applicable for i values which divides the n
+  print(i,end=",") #printing i values which satisfies the two loops
+ i=i+1 #incrementing i value
+ #output
+ 1.enter n value:8
+   1,2,4,8,
+  2.enter n value:2021
+   1,43,47,2021,

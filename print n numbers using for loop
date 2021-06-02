@@ -1,0 +1,13 @@
+#input
+s=int(input("enter start value:"))
+e=int(input("enter end value:"))
+for number in range(s,e+1):
+    print(number)
+#outout
+enter start value:1
+enter end value:5
+1
+2
+3
+4
+5

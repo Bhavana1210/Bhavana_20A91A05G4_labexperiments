@@ -1,0 +1,59 @@
+#count(),count(substring,start,end) methods
+
+#input
+s=input("enter string :")
+print("count()")
+result1=s.count("am")
+print(result1)
+print("count(substring,start,end)")
+result2=s.count("a",0,18)
+print(result2)
+
+#output
+enter string :I am CSE C Student.I am learning strings topic in python.
+count()
+2
+count(substring,start,end)
+1
+
+#find() method
+
+#input
+s=input("enter string :")
+print("find()")
+result=s.find("am")
+print(result)
+
+#output
+enter string :I am CSE C Student.
+find()
+2
+
+#isupper() method
+
+#input
+s=input("enter string :")
+result=s.isupper()
+print(result)
+
+#output
+1.enter string :python
+ False
+2.enter string :PYTHON
+ True
+ 
+ #islower() method
+ 
+#input
+s=input("enter string :")
+result=s.islower()
+print(result)
+
+#output
+1.enter string :python
+ True
+2.enter string :python Learning
+ False
+
+
+

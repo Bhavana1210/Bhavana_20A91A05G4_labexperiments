@@ -1,0 +1,28 @@
+#input
+s=input("enter string:")
+result=s.find("o")
+print("find() of substring o")
+print(result)
+result=s.find("b")
+print("find() of substring b")
+print(result)
+result=s.index("o")
+print("index() of substring o")
+print(result)
+print("index() of substring b")
+result=s.index("b")
+print(result)
+
+#output
+enter string:python
+find() of substring o
+4
+find() of substring b
+-1
+index() of substring o
+4
+index() of substring b
+Traceback (most recent call last):
+  File "main.py", line 19, in <module>
+    result=s.index("b")
+ValueError: substring not found
